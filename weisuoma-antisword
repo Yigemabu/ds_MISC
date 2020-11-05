@@ -1,0 +1,42 @@
+/**
+ * php::base64编码器
+ * Create at: 2020/10/14 13:38:35
+ */
+
+'use strict';
+/*
+* @param  {String} pwd   连接密码
+* @param  {Array}  data  编码器处理前的 payload 数组
+* @return {Array}  data  编码器处理后的 payload 数组
+*/
+module.exports = (pwd, data, ext={}) => {
+  // ##########    请在下方编写你自己的代码   ###################
+  // 以下代码为 PHP Base64 样例
+  let obj = {'ak':'aec7e598-2fbc-4b15-871f-1d786eeb80dc','a':'e','d':data['_']};
+  let objStr = JSON.stringify(obj);
+  // 生成一个随机变量名
+  let pass = 't';
+  let t = pass.repeat(obj.d.length - 1);
+  
+  let text = '';
+  for(let i = 0; i < objStr.length; i ++){
+    text += String.fromCharCode(objStr[i].charCodeAt() ^ t.charCodeAt());
+  }
+  let key = obj.ak;
+  var value = '';
+  for(let i = 0; i < text.length; i++){
+    if(!key[i]){
+      key += obj.ak;
+    }
+    value += String.fromCharCode(text[i].charCodeAt() ^ key[i].charCodeAt());
+  }
+  data[t] = Buffer.from(value).toString('base64');
+  
+
+  // ##########    请在上方编写你自己的代码   ###################
+
+  // 删除 _ 原有的payload
+  delete data['_'];
+  // 返回编码器处理后的 payload 数组
+  return data;
+}
