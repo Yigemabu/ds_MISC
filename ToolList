@@ -1,0 +1,948 @@
+Windows Active Directory渗透测试
+一般有用的Powershell脚本
+
+https://github.com/S3cur3Th1sSh1t/WinPwn -😎
+https://github.com/dafthack/MailSniper
+https://github.com/putterpanda/mimikittenz
+https://github.com/dafthack/DomainPasswordSpray
+https://github.com/mdavis332/DomainPasswordSpray-相同，但使用kerberos身份验证以提高隐身性和锁定睡眠
+https://github.com/jnqpblc/SharpSpray-domainpasswordspray可执行文件，具有锁定睡眠
+https://github.com/Arvanaghi/SessionGopher
+https://github.com/samratashok/nishang
+https://github.com/PowerShellMafia/PowerSploit
+https://github.com/fdiskyou/PowerOPS
+https://github.com/giMini/PowerMemory
+https://github.com/Kevin-Robertson/Inveigh
+https://github.com/MichaelGrafnetter/DSInternals
+https://github.com/PowerShellEmpire/PowerTools
+https://github.com/FuzzySecurity/PowerShell-Suite
+https://github.com/hlldz/Invoke-Phant0m
+https://github.com/leoloobeek/LAPSToolkit
+https://github.com/sense-of-security/ADRecon
+
+https://github.com/Arno0x/PowerShellScripts
+
+https://github.com/S3cur3Th1sSh1t/Grouper
+
+https://github.com/l0ss/Grouper2
+
+https://github.com/NetSPI/PowerShell
+https://github.com/NetSPI/PowerUpSQL
+https://github.com/GhostPack-C＃中的各种Powersploit任务
+https://github.com/Kevin-Robertson/Powermad-Adidns攻击
+AMSI旁路限制旁路
+https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell
+https://github.com/p3nt4/PowerShdll
+https://github.com/jaredhaight/PSAttack
+https://github.com/Cn33liz/p0wnedShell
+https://github.com/cobbr/InsecurePowerShell
+https://github.com/Mr-Un1k0d3r/PowerLessShell
+
+https://github.com/bitsadmin/nopowershell C＃Powershell
+https://github.com/OmerYa/Invisi-Shell
+
+https://github.com/Hackplayers/Salsa-tools-Salsa工具-ShellReverse TCP / UDP / ICMP / DNS / SSL / BINDTCP和AV旁路，已修补AMSI
+https://github.com/padovah4ck/PSByPassCLM-受限的语言模式绕过
+https://github.com/rasta-mouse/AmsiScanBufferBypass
+https://github.com/itm4n/VBA-RunPE-Applocker绕过
+https://github.com/cfalta/PowerShellArmoury
+https://github.com/Mr-B0b/SpaceRunner-此工具启用C＃程序的编译，该程序将执行任意PowerShell代码，而无需通过使用运行空间来启动PowerShell进程。
+https://github.com/RythmStick/AMSITrigger-寻找恶意字符串
+https://github.com/rmdavy/AMSI_Ordinal_Bypass-在VBS中使用序数值绕过AMSI和Defender
+
+https://github.com/mgeeky/Stracciatella-来自C＃（aka SharpPick）中的OpSec安全Powershell运行空间，启动时禁用AMSI，CLM和脚本块记录
+
+https://github.com/med0x2e/NoAmci-使用DInvoke修补AMSI.dll，以绕过通过Assembly.Load（）加载.NET Tradecraft时触发的AMSI检测。
+有效负载托管
+https://github.com/kgretzky/pwndrop-为红色团队成员提供的可自行部署的文件托管服务，允许通过HTTP和WebDAV轻松上传和共享有效负载。
+
+https://github.com/sc0tfree/updog-Updog替代了Python的SimpleHTTPServer。它允许通过HTTP / S进行上传和下载，可以设置临时SSL证书并使用http基本身份验证。
+网络共享扫描仪
+
+查找多汁的东西
+
+https://github.com/SnaffCon/Snaffler-@ l0ss和@ Sh3r4的用于渗透测试者帮助找到美味糖果的工具
+https://github.com/djhohnstein/SharpShares-枚举当前域中的所有网络共享。另外，可以将名称解析为IP地址。
+https://github.com/vivami/SauronEye-搜索工具，用于查找包含特定单词的特定文件，即包含密码的文件。
+
+https://github.com/leftp/VmdkReader-.NET 4.0控制台应用程序，用于浏览VMDK / VHD图像并提取文件
+反向Shellz
+https://github.com/xct/xc-适用于Linux和Windows的小型反向外壳
+
+https://github.com/cytopia/pwncat-带有防火墙，IDS / IPS规避，绑定和反向shell，自注入shell和端口转发魔术的类固醇上的netcat-以及可完全用Python（PSE）编写的脚本
+https://github.com/Kudaes/LOLBITS-使用后台智能传输服务（BITS）作为通信协议的C＃反向外壳程序，并为EDR用户模式挂钩规避提供直接的系统调用。
+后门取景器
+https://github.com/linuz/Sticky-Keys-Slayer
+https://github.com/ztgrace/sticky_keys_hunter
+https://github.com/countercept/doublepulsar-detection-script
+横向运动
+https://github.com/0xthirteen/SharpRDP
+https://github.com/0xthirteen/MoveKit-WMI，SMB，RDP，SCM，DCOM横向运动技术
+https://github.com/0xthirteen/SharpMove-WMI，SCM，DCOM，任务计划程序等
+
+https://github.com/rvrsh3ll/SharpCOM-Invoke-DCOM的 C＃端口
+https://github.com/malcomvetter/CSExec-C＃中PSExec的实现
+https://github.com/byt3bl33d3r/CrackMapExec
+https://github.com/nccgroup/WMIcmd
+https://github.com/rasta-mouse/MiscTools-CsExec，CsPosh（远程Powershell运行空间），CsWMI，CsDCOM
+https://github.com/byt3bl33d3r/DeathStar-自动获取Dom-Adm
+https://github.com/SpiderLabs/portia-自动横向移动
+
+https://github.com/Screetsec/Vegile-后门/ rootkit
+https://github.com/DanMcInerney/icebreaker-各种mitm攻击和外伤的自动化
+https://github.com/MooseDojo/apt2-自动渗透工具包
+https://github.com/hdm/nextnet-Netbios网络接口枚举（发现双宿主主机）
+https://github.com/mubix/IOXIDResolver-通过DCOM查找双宿主主机
+https://github.com/Hackplayers/evil-winrm
+
+https://github.com/bohops/WSMan-WinRM-概念证明源代码和脚本的集合，用于使用WSMan.Automation COM对象通过WinRM执行远程命令
+https://github.com/dirkjanm/krbrelayx-无限制的委托，打印机错误（MS-RPRN）的利用，远程ADIDNS攻击
+https://github.com/Mr-Un1k0d3r/SCShell-依靠ChangeServiceConfigA来运行命令的无文件横向移动工具
+
+https://github.com/rvazarkar/GMSAPasswordReader-AD Bloodhound 3.0路径
+https://github.com/fdiskyou/hunter
+https://github.com/360-Linton-Lab/WMIHACKER-绕过防病毒软件横向移动命令执行工具
+POST开发
+https://github.com/mubix/post-exploitation
+https://github.com/emilyanncr/Windows-Post-Exploitation
+https://github.com/nettitude/Invoke-PowerThIEf-自动扫描任何窗口或选项卡以查找登录表单，然后记录发布的内容。有人到达时会出现一条通知。
+
+https://github.com/ThunderGunExpress/BADministration-McAfee Epo或Solarwinds开发后
+https://github.com/bohops/SharpRDPHijack-用于断开会话的POC远程桌面（RDP）会话劫持实用程序
+https://github.com/antonioCoco/RunasCs-RunasCs-Csharp和Windows内置runas.exe的开放版本
+
+https://github.com/klsecservices/Invoke-Vnc-Powershell VNC注入器
+https://github.com/mandatoryprogrammer/CursedChrome-Chrome扩展植入程序，可将受害Chrome浏览器变成功能齐全的HTTP代理，使您可以作为受害者浏览网站。
+
+https://github.com/djhohnstein/WireTap-用于与视频，音频和键盘硬件进行交互的.NET 4.0项目。
+https://github.com/GhostPack/Lockless-无锁允许复制锁定的文件。
+https://github.com/slyd0g/SharpClipboard-C＃剪贴板监视器
+https://github.com/hlldz/pickl3-Windows活动用户凭据网络钓鱼工具
+https://github.com/infosecn1nja/SharpDoor-SharpDoor是用C＃编写的替代RDPWrap，可通过修补termsrv.dll文件来允许多个RDP（远程桌面）会话。
+包装各种工具
+https://github.com/S3cur3Th1sSh1t/PowerSharpPack-Powershell中包装的各种.NET工具
+
+https://github.com/bohops/GhostBuild-GhostBuild是用于各种GhostPack / .NET项目的简单MSBuild启动器的集合
+
+https://github.com/rvrsh3ll/Rubeus-Rundll32-Rubeus的 rundll32包装器
+枢
+https://github.com/0x36/​​VPNPivot
+https://github.com/securesocketfunneling/ssf
+https://github.com/p3nt4/Invoke-SocksProxy
+https://github.com/sensepost/reGeorg-袜子代理上的Webshel​​l隧道-渗透测试者的梦想
+
+https://github.com/nccgroup/ABPTTS通过HTTP / HTTPS进行TCP隧道传输，用于reGeorg等Web应用程序服务器
+https://github.com/RedTeamOperations/PivotSuite
+https://github.com/trustedsec/egressbuster-检查开放端口上的互联网访问/出口过滤
+https://github.com/vincentcox/bypass-firewalls-by-DNS-history
+https://github.com/shantanu561993/SharpChisel-围绕Chisel的C＃包装器，来自
+https://github.com/jpillora/chisel-通过HTTP的快速TCP隧道
+
+https://github.com/esrrhs/pingtunnel-ping隧道是一种工具，可将tcp / udp / socks5通信量作为icmp通信量进行转发。
+https://github.com/sysdream/ligolo-渗透测试人员可以轻松进行反向隧道
+
+https://github.com/nccgroup/SocksOverRDP-Socks5 / 4 / 4a对远程桌面协议/终端服务/ Citrix / XenApp / XenDesktop的代理支持
+
+https://github.com/blackarrowsec/mssqlproxy-mssqlproxy是旨在通过受限制的Microsoft SQL Server通过套接字重用在受限环境中执行横向移动的工具包
+Active Directory审核和利用工具
+https://github.com/mwrlabs/SharpGPOA滥用
+https://github.com/BloodHoundAD/BloodHound
+https://github.com/BloodHoundAD/SharpHound3-BloodHound项目的C＃数据收集器，版本3
+https://github.com/chryzsh/awesome-bloodhound
+https://github.com/hausec/Bloodhound-Custom-Queries
+https://github.com/vletoux/pingcastle
+https://github.com/cyberark/ACLight
+https://github.com/canix1/ADACLScanner
+https://github.com/fox-it/Invoke-ACLPwn
+https://github.com/fox-it/aclpwn.py-与invoke-aclpwn相同，但在python中
+
+https://github.com/dirkjanm/ldapdomaindump-通过LDAP的Active Directory信息转储程序
+https://github.com/tothi/rbcd-attack-使用Impacket从外部进行基于Kerberos资源的约束委派攻击
+
+https://github.com/NotMedic/NetNTLMtoSilverTicket-SpoolSample- >带有NetNTLM降级的响应程序-> NetNTLMv1-> NTLM-> Kerberos Silver Ticket
+
+https://github.com/FatRodzianko/Get-RBCD-Threaded-在Active Directory环境中发现基于资源的约束委派攻击路径的工具
+在Windows上的持久性
+https://github.com/fireeye/SharPersist
+https://github.com/outflanknl/SharpHide
+Web应用程序渗透测试
+框架发现
+https://github.com/Tuhinshubhra/CMSeeK
+https://github.com/Dionach/CMSmap-Wordpress，Joomla，Drupal扫描仪
+https://github.com/wpscanteam/wpscan
+https://github.com/Ekultek/WhatWaf
+框架扫描仪/开发
+
+https://github.com/wpscanteam/wpscan – WordPress的
+https://github.com/n00py/WPForce
+
+https://github.com/m4ll0k/WPSeku https://github.com/swisskyrepo/Wordpresscan
+https://github.com/rastating/wordpress-exploit-framework
+https://github.com/coldfusion39/domi-owned-莲花多米诺
+
+https://github.com/droope/droopescan – Drupal的
+
+https://github.com/whoot/Typo-Enumerator – TYPO3的
+
+https://github.com/rezasp/joomscan -的Joomla
+Web漏洞扫描程序/ Burp插件
+https://github.com/m4ll0k/WAScan-多合一扫描仪
+https://github.com/s0md3v/XSStrike-XSS发现
+https://github.com/federicodotta/Java-Deserialization-Scanner
+https://github.com/d3vilbug/HackBar
+https://github.com/gyoisamurai/GyoiThon
+https://github.com/snoopysecurity/awesome-burp-extensions
+https://github.com/BishopFox/GadgetProbe-探测使用Java序列化对象的端点，以识别远程Java类路径上的类，库和库版本。
+网络/服务级别的漏洞扫描程序
+https://github.com/scipag/vulscan
+https://github.com/zdresearch/OWASP-Nettacker
+文件/目录/参数发现
+https://github.com/OJ/gobuster
+https://github.com/nccgroup/dirble
+https://github.com/maK-/parameth
+https://github.com/devanshbatham/ParamSpider-从Web存档的黑暗角落挖掘参数
+
+https://github.com/s0md3v/Arjun -💗
+https://github.com/Cillian-Collins/dirscraper-从Javascript文件查找目录
+https://github.com/hannob/snallygaster
+https://github.com/maurosoria/dirsearch
+https://github.com/s0md3v/Breacher-管理面板查找器
+https://github.com/mazen160/server-status_PWN
+履带式
+
+https://github.com/s0md3v/Photon -💗
+https://github.com/kgretzky/dcrawl
+
+https://github.com/lc/gau-从AlienVault的Open Threat Exchange，Wayback Machine和Common Crawl中获取已知的URL。
+网络开发工具
+
+https://github.com/OsandaMalith/L​​FiFreak – LFI
+
+https://github.com/enjoiz/XXEinjector – XXE
+
+https://github.com/tennc/webshel​​l – shellz
+https://github.com/flozz/p0wny-shell
+
+https://github.com/epinna/tplmap – SSTI
+https://github.com/orf/xcat-xpath注入
+https://github.com/almandin/fuxploider-文件上传
+https://github.com/nccgroup/freddy-反序列化
+https://github.com/irsdl/IIS-ShortName-Scanner-IIS短文件名漏洞。开发
+https://github.com/frohoff/ysoserial-反序列化Java开发
+https://github.com/pwntester/ysoserial.net-反序列化.NET开发
+https://github.com/internetwache/GitTools-利用.git文件夹的存在
+https://github.com/cujanovic/SSRF-Testing-SSRF教程
+https://github.com/ambionics/phpggc-PHP反序列化有效负载生成器
+
+https://github.com/BuffaloWill/oxml_xxe-恶意Office XXE有效负载生成器
+
+https://github.com/tijme/angularjs-csti-scanner-Angularjs Csti扫描仪
+
+https://github.com/0xacb/viewgen-反序列化.NET Viewstates
+
+https://github.com/Illuminopi/RCEvil.NET-反序列化.NET Viewstates
+REST API审核
+https://github.com/flipkart-incubator/Astra
+Swagger File API攻击
+https://github.com/imperva/automatic-api-attack-tool
+Windows特权升级/审核
+https://github.com/itm4n/PrivescCheck-Windows的特权升级枚举脚本
+https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS-功能强大的特权升级检查脚本，输出良好
+https://github.com/AlessandroZ/BeRoot
+https://github.com/rasta-mouse/Sherlock
+
+https://github.com/hfiref0x/UACME – UAC
+
+https://github.com/rootm0s/WinPwnage – UAC
+https://github.com/abatchy17/WindowsExploits
+https://github.com/dafthack/HostRecon
+https://github.com/sensepost/rattler-查找易受攻击的dll以进行预加载攻击
+https://github.com/WindowsExploits/Exploits
+https://github.com/Cyber​​eason/siofra-DLL劫持扫描器
+https://github.com/0xbadjuju/Tokenvator-系统管理员
+https://github.com/MojtabaTajik/Robber
+https://github.com/411Hall/JAWS
+https://github.com/GhostPack/SharpUp
+https://github.com/GhostPack/Seatbelt
+https://github.com/A-mIn3/WINspect
+https://github.com/hausec/ADAPE-脚本
+https://github.com/SecWiki/windows-kernel-exploits
+https://github.com/bitsadmin/wesng
+https://github.com/rasta-mouse/Watson
+Windows特权滥用（提权）
+https://github.com/gtworek/Priv2Admin-滥用Windows特权
+https://github.com/itm4n/UsoDllLoader-从system32加载恶意dll
+https://github.com/TsukiCTF/Lovely-Potato-通过自动化利用土豆
+https://github.com/antonioCoco/RogueWinRM-从服务帐户到系统
+https://github.com/antonioCoco/RoguePotato-从服务帐户到系统的另一个Windows本地特权升级
+
+https://github.com/itm4n/PrintSpoofer-Windows 10和Server 2019上的滥用模拟特权
+
+https://github.com/BeichenDream/BadPotato-C＃中的 itm4ns Printspoofer
+https://github.com/itm4n/FullPowers-恢复本地/网络服务帐户的默认特权集
+T3枚举
+https://github.com/quentinhardy/jndiat
+Linux权限提升/审核
+https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS-功能强大的特权升级检查脚本，输出良好
+https://github.com/mzet-/linux-exploit-suggester
+https://github.com/rebootuser/LinEnum
+https://github.com/diego-treitos/linux-smart-enumeration
+https://github.com/CISOfy/lynis
+https://github.com/AlessandroZ/BeRoot
+https://github.com/future-architect/vuls
+https://github.com/ngalongc/AutoLocalPrivilegeEscalation
+https://github.com/b3rito/yodo
+https://github.com/belane/linux-soft-exploit-suggester-查找易受攻击的已安装软件
+https://github.com/sevagas/swap_digger
+https://github.com/NullArray/RootHelper
+https://github.com/NullArray/MIDA-Multitool
+https://github.com/initstring/dirty_sock
+https://github.com/jondonas/linux-exploit-suggester-2
+https://github.com/sosdave/KeyTabExtract
+https://github.com/DominicBreuker/pspy
+https://github.com/itsKindred/modDetective
+https://github.com/nongiach/sudo_inject
+https://github.com/Anon-Exploiter/SUID3NUM-查找suid容器并在gtfobins下查找它们/是否可利用
+https://github.com/nccgroup/GTFOBLookup-离线GTFOBins
+https://github.com/TH3xACE/SUDO_KILLER-sudo错误配置利用
+https://raw.githubusercontent.com/sleventyeleven/linuxprivchecker/master/linuxprivchecker.py
+https://github.com/inquisb/unix-privesc-check
+https://github.com/hc0d3r/tas-轻松操作tty并创建伪造的二进制文件
+https://github.com/SecWiki/linux-kernel-exploits
+https://github.com/initstring/uptux
+https://github.com/andrew-d/static-binaries-不是真的privesc但很有帮助
+渗出
+特定于Windows的凭据收集
+https://github.com/gentilkiwi/mimikatz
+https://github.com/GhostPack/SafetyKatz
+
+https://github.com/Flangvik/BetterSafetyKatz-SafetyKatz的分叉，可以直接从gentilkiwi GitHub存储库中动态获取Mimikatz的最新预编译版本，运行时对签名进行修补，并使用SharpSploit DInvoke将PE加载到内存中。
+https://github.com/GhostPack/Rubeus
+https://github.com/Arvanaghi/SessionGopher
+https://github.com/peewpw/Invoke-WCMDump
+https://github.com/tiagorlampert/sAINT
+https://github.com/AlessandroZ/LaZagneForensic-远程烤宽面条
+https://github.com/eladshamir/Internal-Monologue
+https://github.com/djhohnstein/SharpWeb-浏览器凭据收集
+
+https://github.com/moonD4rk/HackBrowserData-hack-browser-data是一个开源工具，可以帮助您从浏览器解密数据[密码|书签| cookies |历史]。
+https://github.com/mwrlabs/SharpClipHistory-ClipHistory功能获取最后25个复制粘贴操作
+https://github.com/outflanknl/Dumpert-使用直接系统调用和API脱钩转储lsass
+https://github.com/b4rtik/SharpMiniDump-使用Dumpert从内存创建LSASS进程的小型转储
+
+https://github.com/b4rtik/ATPMiniDump-逃避WinDefender ATP凭据盗窃
+https://github.com/aas-n/spraykatz-远程procdump.exe，将转储文件复制到本地系统和pypykatz进行分析/提取
+https://github.com/0x09AL/RdpThief-提取实时rdp登录信息
+
+https://github.com/chrismaddalena/SharpCloud-用于检查与AWS，Microsoft Azure和Google Compute相关的凭证文件是否存在的简单C＃。
+
+https://github.com/djhohnstein/SharpChromium-.NET 4.0 CLR项目，用于检索Chromium数据，例如cookie，历史记录和保存的登录名。
+没有Mimikatz的LSASS转储
+https://github.com/Hackndo/lsassy
+https://github.com/aas-n/spraykatz
+特定于Linux的凭证收集
+https://github.com/huntergregal/mimipenguin
+https://github.com/n1nj4sec/mimipy
+https://github.com/dirtycow/dirtycow.github.io
+https://github.com/mthbernardes/sshLooterC-SSH凭证战利品
+
+https://github.com/blendin/3snake-SSH / Sudo / SU凭证战利品
+https://github.com/0xmitsurugi/gimmecredz
+数据渗透-DNS / ICMP / Wifi渗透
+https://github.com/FortyNorthSecurity/Egress-Assess
+https://github.com/p3nt4/Invoke-TmpDavFS
+https://github.com/DhavalKapil/icmptunnel
+https://github.com/iagox86/dnscat2
+https://github.com/Arno0x/DNSExfiltrator
+https://github.com/spieglt/FlyingCarpet-Wifi渗透
+https://github.com/SECFORCE/Tunna-Tunna是一套工具，可以包装和传输HTTP上的任何TCP通信
+https://github.com/sysdream/chashell
+https://github.com/no0be/DNSlivery-通过DNS轻松传输文件和有效负载
+特定于Git
+https://github.com/dxa4481/truffleHog
+https://github.com/zricethezav/gitleaks
+https://github.com/adamtlangley/gitscraper
+Windows / Linux
+https://github.com/AlessandroZ/LaZagne
+https://github.com/Dionach/PassHunt
+https://github.com/vulmon/Vulmap
+逆向工程/反编译
+https://github.com/mattifestation/PowerShellArsenal
+https://github.com/0xd4d/dnSpy-.NET反汇编程序
+https://github.com/NationalSecurityAgency/ghidra
+https://github.com/icsharpcode/ILSpy
+取证
+https://github.com/Invoke-IR/PowerForensics
+https://github.com/Neo23x0/Loki
+https://github.com/gfoss/PSRecon
+网络攻击
+
+https://github.com/bettercap/bettercap -💗
+https://github.com/SpiderLabs/Responder
+https://github.com/lgandx/Responder-更多最新信息
+https://github.com/evilsocket/bettercap-已弃用，但仍然不错
+https://github.com/r00t-3xp10it/morpheus
+https://github.com/fox-it/mitm6
+
+https://github.com/Kevin-Robertson/InveighZero-C＃中的 mitm6 + Inveigh默认功能
+https://github.com/DanMcInerney/LANs.py
+特定的MITM服务开发
+
+https://github.com/jtesta/ssh-mitm – SSH
+
+https://github.com/pimps/wsuxploit – WSUS
+
+https://github.com/SySS-Research/Seth – RDP
+https://github.com/GoSecure/pyrdp-适用于Python的RDP中间人（mitm）和库，能够实时观察或实时观察连接
+https://github.com/infobyte/evilgrade-各种软件的虚假更新
+https://github.com/samdenty/injectify-Web应用程序实时录制，击键记录器
+https://github.com/skorov/ridrelay-带有SMB中继攻击的用户枚举
+https://github.com/Kevin-Robertson/Invoke-TheHash
+嗅探/评估/过滤
+https://github.com/DanMcInerney/net-creds
+
+https://github.com/odedshimon/BruteShark –
+https://github.com/lgandx/PCredz
+https://github.com/Srinivas11789/PcapXray
+红队SIEM
+
+https://github.com/outflanknl/RedELK-Red Team的SIEM-Red Team的工具，用于跟踪和警告Blue Team活动以及更好的长期运营可用性。
+扫描仪/开发框架/自动化
+https://github.com/threat9/routersploit
+https://github.com/nccgroup/autopwn
+https://github.com/1N3/Sn1per
+https://github.com/byt3bl33d3r/CrackMapExec
+https://github.com/Cn33liz/p0wnedShell
+https://github.com/archerysec/archerysec
+https://github.com/vulnersCom/nmap-vulners
+https://github.com/m4ll0k/AutoNSE-使用脚本功能自动执行nmap
+https://github.com/v3n0m-Scanner/V3n0M-Scanner
+https://github.com/zdresearch/OWASP-Nettacker
+默认凭据扫描仪
+https://github.com/ztgrace/changeme
+https://github.com/InfosecMatter/default-http-login-hunter-利用NNdefaccts数据集的管理Web界面的默认凭据的登录搜寻器。
+https://github.com/FortyNorthSecurity/EyeWitness
+https://github.com/byt3bl33d3r/WitnessMe-Web服务器的屏幕截图
+默认凭证查找
+https://github.com/Viralmaniar/Passhunt
+有效载荷生成/ AV规避/恶意软件创建
+https://github.com/nccgroup/Winpayloads
+https://github.com/Screetsec/TheFatRat
+https://github.com/xillwillx/tricky.lnk
+https://github.com/trustedsec/unicorn
+https://github.com/z0noxz/powerstager
+https://github.com/curi0usJack/luckystrike
+https://github.com/enigma0x3/Generate-Macro
+https://github.com/Cn33liz/JSMeter
+https://github.com/Mr-Un1k0d3r/MaliciousMacroGenerator
+https://github.com/Cn33liz/StarFighters
+https://github.com/BorjaMerino/Pazuzu
+https://github.com/mwrlabs/wePWNise
+https://github.com/Mr-Un1k0d3r/UniByAv
+https://github.com/govolution/avet
+https://github.com/Pepitoh/VBad
+https://github.com/mdsecactivebreach/CACTUSTORCH
+https://github.com/D4Vinci/Dr0p1t-Framework
+https://github.com/g0tmi1k/msfpc
+
+https://github.com/bhdresh/CVE-2017-0199-Office RCE POC
+https://github.com/GreatSCT/GreatSCT
+https://github.com/mthbernardes/rsg-反向Shell生成器
+https://github.com/sevagas/macro_pack
+https://github.com/mdsecactivebreach/SharpShooter
+https://github.com/hlldz/SpookFlare
+https://github.com/0xdeadbeefJERKY/Office-DDE-Payloads
+https://github.com/paranoidninja/CarbonCopy-为AV-Evasion签署可执行文件
+https://github.com/peewpw/Invoke-PSImage
+https://github.com/Arvanaghi/CheckPlease-沙盒逃避技术
+https://github.com/trustedsec/nps_payload
+https://github.com/stormshadow07/HackTheWorld
+https://github.com/r00t-3xp10it/FakeImageExploiter
+https://github.com/nccgroup/demiguise-加密的HTA生成
+https://github.com/med0x2e/genxlm
+https://github.com/med0x2e/GadgetToJScript
+https://github.com/rasta-mouse/GadgetToJScript-优化的GadgetToJScript版本
+
+https://github.com/EgeBalci/sgn-引入了Shikata ga nai（仕方がない）编码器，并进行了一些改进
+https://github.com/matterpreter/spotter-Spotter是一种将有效载荷包装在环保型AES256加密启动器中的工具。
+https://github.com/s0lst1c3/dropengine-可延展的有效载荷生成框架。
+https://github.com/gigajew/PowerDropper-从.NET可执行文件构建Powershell脚本
+
+https://github.com/FortyNorthSecurity/EXCELntDonut-Excel 4.0（XLM）宏生成器，用于将DLL和EXE注入内存。
+
+https://github.com/Greenwolf/ntlm_theft-Jacob Wilkin（Greenwolf）生成多种类型的NTLMv2哈希盗窃文件的工具
+https://github.com/phackt/stager.dll-AES加密有效负载
+https://github.com/Arno0x/EmbedInHTML-嵌入并隐藏HTML文件中的任何文件
+
+https://github.com/bats3c/darkarmour-AES加密C / C ++编译的二进制文件并在运行时解密
+https://github.com/christophetd/spoofing-office-macro-VBA宏的PoC生成带有欺骗性父代和命令行的进程。
+https://github.com/infosecn1nja/MaliciousMacroMSBuild-生成恶意宏并通过MSBuild应用白名单绕过执行Powershell或Shellcode。
+
+https://github.com/outflanknl/EvilClippy-用于创建恶意MS Office文档的跨平台助手。可以隐藏VBA宏，踩VBA代码（通过P代码）并混淆宏分析工具。在Linux，OSX和Windows上运行。
+Shellcode注入
+
+https://github.com/TheWover/donut-生成x86，x64或AMD64 + x86位置无关的shellcode，该shellcode从内存中加载.NET程序集，PE文件和其他Windows有效负载，并使用参数运行它们
+
+https://github.com/rasta-mouse/RuralBishop-D /调用UrbanBishop的端口
+https://github.com/FuzzySecurity/Sharp-Suite/tree/master/UrbanBishop-用于Shellcode注入的Donut
+https://github.com/antonioCoco/Mapping-Injection-映射注入是一种过程注入技术，可避免使用常见的受监视系统调用VirtualAllocEx，WriteProcessMemory和CreateRemoteThread。
+https://github.com/SolomonSklash/SyscallPOC-使用syscalls的Shellcode注入POC。
+https://github.com/Arno0x/ShellcodeWrapper-具有多种目标语言加密功能的Shellcode包装器
+
+https://github.com/Ne0nd0g/go-shellcode-Windows Shellcode运行程序和支持实用程序的存储库。应用程序使用各种AP​​I调用或技术来加载和执行Shellcode。
+
+https://github.com/djhohnstein/CSharpSetThreadContext-C＃Shellcode Runner通过CreateRemoteThread和SetThreadContext执行Shellcode以逃避Get-InjectedThread
+https://github.com/pwndizzle/c-sharp-memory-injection-一组脚本，演示如何在C＃中执行内存注入
+EDR规避-日志规避
+https://github.com/CCob/SharpBlock-一种通过阻止入口点执行来绕过EDR的活动投影DLL的方法
+https://github.com/bats3c/Ghost-In-The-Logs-逃避sysmon和Windows事件记录
+https://github.com/am0nsec/SharpHellsGate-地狱之门VX技术的C＃实现
+https://github.com/am0nsec/HellsGate-地狱之门VX技术的原始C实现
+
+https://github.com/3gstudent/Windows-EventLog-Bypass-Invoke-Phantom的 C ++版本
+https://github.com/Soledge/BlockEtw-.Net程序集在当前过程中阻止ETW遥测
+https://github.com/ionescu007/faxhell-使用传真服务和DLL劫持的绑定外壳
+
+https://github.com/realoriginal/ppdump-public-受保护的进程（轻量）转储：使用Zemana AntiMalware引擎打开PP / PPL进程的特权句柄并注入MiniDumpWriteDump（）Shellcode
+有用的二进制修改工具
+https://github.com/hasherezade/exe_to_dll
+https://github.com/hasherezade/dll_to_exe
+https://github.com/hasherezade/pe_to_shellcode
+安卓
+https://github.com/sensepost/kwetza
+外部渗透测试
+域查找/子域枚举
+https://github.com/aboul3la/Sublist3r
+https://github.com/TheRook/subbrute
+https://github.com/michenriksen/aquatone
+https://github.com/darkoperator/dnsrecon
+https://github.com/fwaeytens/dnsenum
+
+https://github.com/s0md3v/Striker +扫描仪
+https://github.com/leebaird/discover
+https://github.com/eldraco/domain_analyzer-更像是审计
+
+https://github.com/caffix/amass -💗
+https://github.com/subfinder/subfinder
+https://github.com/TypeError/domained
+https://github.com/SilverPoision/Rock-ON
+文件搜索/元数据提取
+https://github.com/dafthack/PowerMeta
+https://github.com/ElevenPaths/FOCA
+扫描器
+https://github.com/vesche/scanless
+https://github.com/1N3/Sn1per
+https://github.com/DanMcInerney/pentest-machine
+电子邮件收集
+https://github.com/leapsecurity/InSpy
+https://github.com/dchrastil/ScrapedIn
+https://github.com/SimplySecurity/SimplyEmail
+https://github.com/clr2of8/GatherContacts
+https://github.com/s0md3v/Zen-查找Github用户的电子邮件
+https://github.com/m8r0wn/CrossLinked
+https://github.com/m4ll0k/Infoga
+域身份验证+开发
+https://github.com/nyxgeek/o365recon
+
+https://github.com/gremwell/o365enum-使用ActiveSync，自动发现v1或office.com登录页面从Office 365枚举有效的用户名。
+
+https://github.com/dafthack/MSOLSpray-用于Microsoft Online帐户（Azure / O365）的密码喷涂工具。该脚本记录用户凭据是否有效，是否在帐户上启用了MFA，是否不存在租户，是否不存在用户，是否锁定了帐户或是否禁用了该帐户。
+https://github.com/sachinkamath/NTLMRecon-从启用NTLM身份验证的Web端点枚举信息的工具
+https://github.com/ustayready/fireprox-通过AWS旋转IP地址-与MSOLSpray结合
+
+https://github.com/True-Demon/raindance-Office 365侦察
+https://github.com/dafthack/MailSniper
+https://github.com/sensepost/ruler
+https://github.com/Greenwolf/Spray-锁定时间已集成
+https://github.com/nyxgeek/lyncsmash-Lync凭据查找器
+
+https://github.com/byt3bl33d3r/SprayingToolkit-使对Lync / S4B和OWA进行密码喷雾攻击的脚本更快，更省力，更高效
+https://github.com/mdsecresearch/LyncSniper-Lync凭据查找器
+https://github.com/Ridter/cve-2020-0688-OWA反序列化RCE
+
+https://github.com/3gstudent/easBrowseSharefile-用于通过eas浏览共享文件（Exchange Server ActiveSync）
+https://github.com/RedLectroid/OutlookSend-AC＃工具，可从命令行或内存中通过Outlook发送电子邮件
+特定服务扫描/开发
+登录蛮力+单词列表攻击
+https://github.com/galkan/crowbar-暴力破解不符合Hyta的服务-RDP，VNC，OpenVPN
+https://github.com/1N3/BruteX-蛮力各种服务
+
+https://github.com/x90skysn3k/brutespray -😎
+
+https://github.com/DarkCoderSc/win-brute-logon-无需任何特权即可破解任何Microsoft Windows用户密码（包括来宾帐户）
+https://github.com/lanjelot/patator
+https://github.com/dafthack/RDPSpray-RDP密码喷雾-没有事件日志
+https://github.com/xFreed0m/RDPassSpray-使用RDP执行密码喷涂的Python3工具
+SNMP协议
+https://github.com/hatlord/snmpwn
+开启X11
+https://github.com/sensepost/xrdp
+印表机
+https://github.com/RUB-NDS/PRET
+https://github.com/BusesCanFly/PRETty-PRET的自动化
+微软SQL
+https://github.com/quentinhardy/msdat
+甲骨文
+https://github.com/quentinhardy/odat
+宜家
+https://github.com/SpiderLabs/ikeforce
+SMB空会话开发
+https://github.com/m8r0wn/nullinux
+iLO开发
+https://github.com/airbus-seclab/ilo4_toolbox
+vmware vCenter漏洞
+
+https://github.com/guardicore/vmware_vcenter_cve_2020_3952-在vCenter 6.7中利用CVE-2020-3952
+英特尔AMT开发
+https://github.com/Coalfire-Research/DeathMetal
+SAP开发
+https://github.com/comaeio/OPCDE
+https://github.com/gelim/sap_ms
+https://github.com/chipik/SAP_GW_RCE_exploit
+Weblogic开发
+https://github.com/quentinhardy/jndiat-WEblogic服务器测试
+https://github.com/kingkaki/weblogic-scan
+
+https://github.com/FlyfishSec/weblogic_rce – CVE-2719至25年
+https://github.com/SukaraLin/CVE-2019-2890
+https://github.com/1337g/CVE-2017-10271
+https://github.com/LandGrey/CVE-2018-2894
+https://github.com/Y4er/CVE-2020-2551
+共享点利用
+https://github.com/sensepost/SPartan-Sharepoint指纹+开发
+https://github.com/Voulnet/desharialize
+用于ASP.NET AJAX漏洞利用的Telerik UI
+https://github.com/noperator/CVE-2019-18935
+一般侦察
+https://github.com/FortyNorthSecurity/EyeWitness
+命令与控制框架
+https://github.com/n1nj4sec/pupy
+https://github.com/nettitude/PoshC2
+https://github.com/FortyNorthSecurity/WMImplant
+https://github.com/quasar/QuasarRAT
+https://github.com/EmpireProject/帝国
+https://github.com/zerosum0x0/koadic
+https://github.com/Mr-Un1k0d3r/ThunderShell
+https://github.com/Ne0nd0g/merlin
+https://github.com/Arno0x/WebDavC2
+https://github.com/malwaredllc/byob
+https://github.com/byt3bl33d3r/SILENTTRINITY
+https://github.com/Arno0x/WSC2
+https://github.com/BC-SECURITY/Empire-带有嵌入式AMSI-Bypass的帝国
+https://github.com/cobbr/盟约
+https://github.com/BishopFox/sliver-植入框架
+https://github.com/bats3c/shad0w-一种后期开发框架，旨在在受严格监控的环境中秘密运行
+https://github.com/FSecureLABS/C3-自定义命令和控制（C3）。一个用于快速定制C2通道原型的框架，同时仍提供与现有攻击性工具包的集成。
+钴击材料
+https://github.com/DeEpinGh0st/Erebus
+https://github.com/aleenzz/Cobalt_Strike_wiki
+https://github.com/FortyNorthSecurity/C2concealer
+https://github.com/invokethreatguy/AggressorCollection
+https://github.com/harleyQu1nn/AggressorScripts
+安卓
+https://github.com/AhMyth/AhMyth-Android-RAT
+特定于Linux MacOSX
+https://github.com/neoneggplant/EggShell
+WIFI工具
+https://github.com/wifiphisher/wifiphisher
+https://github.com/P0cL4bs/WiFi-Pumpkin
+https://github.com/s0lst1c3/eaphammer
+https://github.com/h0nus/RogueSploit
+https://github.com/Tylous/SniffAir
+https://github.com/FluxionNetwork/fluxion
+https://github.com/derv82/wifite2
+https://github.com/ICSec/airpwn-ng
+https://github.com/xdavidhu/mitmAP
+https://github.com/ZerBea/hcxdumptool
+Android / Nethunter
+https://github.com/faizann24/wifi-bruteforcer-fsecurify
+https://github.com/chrisk44/Hijacker
+Raspberri PI开发
+https://github.com/secgroundzero/warberry
+https://github.com/samyk/poisontap
+https://github.com/mame82/P4wnP1
+https://github.com/mame82/P4wnP1_aloa
+https://github.com/pi-hole/pi-hole
+物理安全性/ HID / ETH仿真器
+https://github.com/carmaa/inception-基于PCI的DMA
+https://github.com/samratashok/Kautilya
+https://github.com/ufrisk/pcileech-基于PCI的DMA
+https://github.com/Screetsec/Brutal-Teensy有效载荷
+https://github.com/insecurityofthings/jackit
+https://github.com/BastilleResearch/mousejack
+社会工程
+https://github.com/kgretzky/evilginx
+https://github.com/threatexpress/domainhunter
+https://github.com/netevert/dnsmorph-查找有效的网络钓鱼域
+https://github.com/elceef/dnstwist-查找有效的网络钓鱼域
+https://github.com/quickbreach/SMBetray-即时更改SMB文件
+https://github.com/SteveLTN/https-portal
+https://github.com/ryhanson/phishery
+https://github.com/Dviros/CredsLeaker
+https://github.com/bitsadmin/fakelogonscreen
+https://github.com/curtbraz/Phishing-API-全面的基于网络的网络钓鱼套件，用于快速部署和实时警报的工具！
+防御者指南/工具
+https://github.com/PaulSec/awesome-windows-domain-hardening
+https://github.com/ernw/hardening
+https://github.com/Invoke-IR/Uproot
+https://github.com/danielbohannon/Revoke-Obfuscation-Powershell混淆检测
+
+https://github.com/countercept/python-exe-unpacker-python exe反编译
+https://github.com/0xd4d/de4dot-.NET撤销-混淆
+https://github.com/securitywithoutborders/hardentools
+https://github.com/x0rz/phishing_catcher
+https://github.com/Ben0xA/PowerShellDefense
+https://github.com/emposha/PHP-Shell-Detector
+https://github.com/LordNoteworthy/al-khaser
+
+https://github.com/Security-Onion-Solutions/security-onion – IDS
+https://github.com/ptresearch/AttackDetection
+https://github.com/MHaggis/hunt-detect-prevent
+https://github.com/JPCERTCC/LogonTracer-通过可视化和分析Windows事件日志来调查恶意Windows登录
+
+https://github.com/lithnet/ad-password-protection-AD Passwort黑名单
+https://github.com/R3MRUM/PSDecode-Powershell除错
+https://github.com/matterpreter/DefenderCheck
+https://github.com/hegusung/AVSignSeek-用python3编写的工具，用于确定AV签名在二进制/有效载荷中的位置
+https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES
+
+https://github.com/ION28/BLUESPAWN-一种主动防御和EDR软件，可增强Blue Teams的能力
+https://github.com/hasherezade/hollows_hunter-扫描所有正在运行的进程。识别并转储各种潜在的恶意植入物（替换/植入的PE，shellcode，hook，内存中的修补程序）。
+https://github.com/hasherezade/pe-sieve-扫描给定的进程。识别并转储各种潜在的恶意植入物（替换/注入的PE，shellcode，hook，内存中的修补程序）。
+https://github.com/0Kee-Team/WatchAD-AD安全入侵检测系统
+https://github.com/nsacyber/Mitigating-Web-Shells
+https://github.com/redcanaryco/atomic-red-team-基于MITRE的ATT＆CK的小型，高度便携的检测测试。
+密码字典生成器
+https://github.com/danielmiessler/SecLists
+https://github.com/berzerk0/Probable-Wordlists
+https://github.com/govolution/betterdefaultpasslist
+https://github.com/insidetrust/statistically-likely-usernames
+https://github.com/LandGrey/pydictor
+https://github.com/sc0tfree/mentalist
+https://github.com/skahwah/wordsmith
+https://github.com/1N3/IntruderPayloads
+https://github.com/fuzzdb-project/fuzzdb
+https://github.com/Bo0oM/fuzz.txt
+https://github.com/laconicwolf/Password-Scripts
+https://github.com/FlameOfIgnis/Pwdb-Public-我可以从10亿个互联网泄漏的凭证中提取的所有数据的集合。
+广告实验室环境
+https://github.com/davidprowe/BadBlood
+混淆
+https://github.com/xoreaxeaxeax/movfuscator
+https://github.com/danielbohannon/Invoke-DOSfuscation
+https://github.com/unixpickle/gobfuscate-GO混淆器
+
+https://github.com/javascript-obfuscator/javascript-obfuscator-Javascript Obfuscator
+https://github.com/danielbohannon/Invoke-Obfuscation-Powershell混淆器
+
+https://github.com/BinaryScary/NET-Obfuscate-.NET IL混淆器
+
+https://github.com/scrt/avcleaner-用于防病毒绕过的C / C ++源混淆器
+
+https://github.com/meme/hellscape-适用于C，C ++，Go等的GIMPLE混淆器，所有受支持的GCC目标和使用GIMPLE的前端。
+https://github.com/mgeeky/VisualBasicObfuscator-VBS混淆器
+hash破解/解密
+https://hashcat.net/hashcat/
+https://github.com/Ciphey/Ciphey-Ciphey是一种自动解密工具。输入加密的文本，取回解密的文本。
+源代码/二进制分析
+二元分析
+https://github.com/avast/retdec
+https://github.com/MobSF/Mobile-Security-Framework-MobSF
+源代码分析
+https://github.com/mre/awesome-static-analysis
+
+https://github.com/eslint/eslint -使用Javascript
+
+https://github.com/dpnishant/jsprime -使用Javascript
+
+https://github.com/phpstan/phpstan – PHP
+MISC
+https://github.com/pentestmonkey/gateway-finder
+https://github.com/Cybellum/DoubleAgent
+https://github.com/ytisf/theZoo
+https://github.com/kbandla/APTnotes
+https://github.com/WindowsLies/BlockWindows
+https://github.com/secrary/InjectProc
+https://github.com/AlsidOfficial/WSUSpendu
+https://github.com/SigPloiter/SigPloit
+https://github.com/virajkulkarni14/WebDeveloperSecurityChecklist
+https://github.com/PowerShell/PowerShell
+https://github.com/landhb/HideProcess
+https://github.com/meliht/Mr.SIP
+https://github.com/XiphosResearch/exploits
+https://github.com/jas502n/CVE-2019-13272
+https://github.com/fox-it/cve-2019-1040-scanner
+https://github.com/worawit/MS17-010
+https://github.com/DiabloHorn/yara4pentesters
+https://github.com/D4Vinci/Cr3dOv3r
+https://github.com/a2u/CVE-2018-7600-Drupal漏洞利用
+https://github.com/joxeankoret/CVE-2017-7494-SAMBA漏洞
+
+https://github.com/D4Vinci/One-Lin3r-反向Shell Oneliner /有效载荷生成
+https://github.com/0x00-0x00/ShellPop-反向/绑定Shell生成器
+https://github.com/Acceis/crypto_identifier
+https://github.com/sensepost/UserEnum-检查用户在域中是否有效
+https://github.com/LOLBAS-Project/LOLBAS-土地二进制文件的生存
+https://github.com/peewpw/Invoke-BSOD-Windows拒绝服务利用
+https://github.com/mtivadar/windows10_ntfs_crash_dos-Windows拒绝服务利用
+
+https://github.com/deepzec/Bad-Pdf PDF窃取NTLMv2哈希漏洞-CVE-2018-4993
+
+https://github.com/SecureAuthCorp/impacket -💥 🔥 💥
+https://github.com/blacknbunny/libSSH-Authentication-Bypass-LibSSH身份验证绕过漏洞。
+
+https://github.com/OneLogicalMyth/zeroday-powershell-Windows Privesc漏洞利用
+
+https://github.com/smicallef/spiderfoot – OSINT
+https://github.com/ShawnDEvans/smbmap
+https://github.com/Coalfire-Research/java-deserialization-exploits-反序列化漏洞
+https://github.com/RhinoSecurityLabs/GCPBucketBrute-S3存储桶测试器
+https://github.com/khast3x/h8mail
+https://github.com/dirkjanm/adidnsdump-像内部评估一样进行区域转移
+https://github.com/gquere/pwn_jenkins
+https://github.com/JavelinNetworks/IR-Tools-Get-ShellContent.ps1获取所有打开的外壳的键入内容
+
+https://github.com/taviso/ctftool-Windows CTF开发
+https://github.com/jedisct1/dsvpn
+https://github.com/GoSecure/dtd-finder
+https://github.com/tyranid/DotNetToJScript
+https://github.com/cfreal/exploits-Apache特权升级
+https://github.com/adamdriscoll/snek-从powershell执行python
+https://github.com/g0tmi1k/exe2hex
+big IP开发
+https://github.com/jas502n/CVE-2020-5902
+Azure云工具
+https://github.com/hausec/PowerZure
+https://github.com/NetSPI/MicroBurst
+
+https://github.com/dirkjanm/ROADtools-Azure AD探索框架。
+https://github.com/dafthack/CloudPentestCheatsheets
+匿名/ Tor项目
+https://github.com/realgam3/pymultitor
+https://github.com/Und3rf10w/kali-anonsurf
+https://github.com/GouveaHeitor/nipe
+https://github.com/cryptolok/GhostInTheNet
+https://github.com/DanMcInerney/elite-proxy-finder
+exp搜索
+https://github.com/vulnersCom/getsploit
+https://github.com/1N3/Findsploit
+工业控制系统
+https://github.com/dark-lbp/isf
+https://github.com/klsecservices/s7scan
+https://github.com/w3h/isf
+网络访问控制旁路
+https://github.com/scipag/nac_bypass
+JMX开发
+https://github.com/mogwailabs/mjet
+https://github.com/siberas/sjet
+Citrix Netscaler Pwn
+https://github.com/trustedsec/cve-2019-19781
+红队基础设施设置
+https://github.com/obscuritylabs/RAI
+
+https://github.com/Coalfire-Research/Red-Baron-Terraform Cloud C2重定向器设置
+
+https://github.com/qsecure-labs/overlord-基于Red-Baron的Red Teaming基础架构自动化
+
+https://github.com/rmikehodges/hideNsneak-此应用程序通过提供快速部署，管理和关闭各种云服务的界面，帮助管理渗透测试人员的攻击基础架构。其中包括VM，域前端，Cobalt Strike服务器，API网关和防火墙。
+https://github.com/shr3ddersec/Shr3dKit
+https://github.com/t94j0/satellite
+绕过SPF / DKIM / DMARC
+https://github.com/chenjj/espoofer
+Redis开发
+Apache Tomcat开发
+
+https://github.com/mgeeky/tomcatWarDeployer-Apache Tomcat自动WAR部署和Pwning渗透测试工具。
+https://github.com/00theway/Ghostcat-CNVD-2020-10487-AJP漏洞CVE-2020-1938
+https://github.com/Ridter/redis-rce
+SSRF开发
+https://github.com/swisskyrepo/SSRFmap
+LFI开发
+https://github.com/mzfr/liffy
+MondoDB Redis Couchdb开发
+https://github.com/torque59/Nosql-Exploitation-Framework
+Elasticsearch / Kibana开发
+https://github.com/0xbug/Biu-framework
+RMI攻击
+https://github.com/NickstaDB/BaRMIe
+
+https://github.com/BishopFox/rmiscout-RMIScout使用单词列表和蛮力策略来枚举Java RMI函数并利用RMI参数解组漏洞
+JSON Web令牌分析/开发
+https://github.com/ticarpi/jwt_tool
+Docker开发
+
+https://github.com/AbsoZed/DockerPwn.py-Docker TCP套接字滥用的自动化
+
+https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/CVE%20Exploits/Docker%20API%20RCE.py-Docker API公开了RCE
+PHP漏洞
+
+https://github.com/neex/phuip-fpizdam-Nginx + PHP错误配置
+云攻击工具
+https://github.com/mdsecactivebreach/o365-attack-toolkit
+蓝牙/低能耗
+https://github.com/ojasookert/CVE-2017-0785
+https://github.com/evilsocket/bleah
+https://github.com/virtualabs/btlejack
+无线/无线电利用
+https://github.com/mame82/LOGITacker
+APT /恶意软件仿真/防御检查
+https://github.com/TryCatchHCF/DumpsterFire
+https://github.com/NextronSystems/APTSimulator
+https://github.com/redhuntlabs/RedHunt-OS
+https://github.com/guardicore/monkey
+hash裂纹/查找
+https://github.com/k4m4/dcipher-cli
+https://github.com/s0md3v/Hash-Buster
+https://github.com/initstring/passphrase-wordlist
+OSCP列表/工具/帮助
+https://github.com/sailay1996/expl-bin
+https://github.com/CyDefUnicorn/OSCP-Archives
+ASPX Webshel​​ls
+https://github.com/antonioCoco/SharPyShell
+PHP Webshel​​ls
+https://github.com/flozz/p0wny-shell
+https://github.com/nil0x42/phpsploit-隐身开发后框架
+JSP WebShells
+https://github.com/SecurityRiskAdvisors/cmd.jsp
+其他工具清单/备忘单
+https://github.com/Hack-with-Github/Awesome-Hacking
+https://github.com/enaqx/awesome-pentest
+https://github.com/HarmJ0y/CheatSheets
+https://github.com/vysecurity/RedTips
+https://github.com/toolswatch/blackhat-arsenal-tools
+https://github.com/jivoi/awesome-osint
+https://github.com/qazbnm456/awesome-cve-poc
+https://github.com/swisskyrepo/PayloadsAllTheThings
+https://github.com/dsasmblr/hacking-online-games
+https://github.com/meirwah/awesome-incident-response
+https://github.com/carpedm20/awesome-hacking
+https://github.com/rshipp/awesome-malware-analysis
+https://github.com/thibmaek/awesome-raspberry-pi
+https://github.com/vitalysim/Awesome-Hacking-Resources
+https://github.com/mre/awesome-static-analysis
+https://github.com/coreb1t/awesome-pentest-cheat-sheets
+https://github.com/infosecn1nja/Red-Teaming-Toolkit
+https://github.com/rmusser01/Infosec_Reference
+https://github.com/trimstray/the-book-of-secret-knowledge
+https://github.com/N7WEra/SharpAllTheThings
+https://github.com/3gstudent/Pentest-and-Development-Tips
+https://github.com/qazbnm456/awesome-web-security
+https://github.com/chryzsh/awesome-windows-security
+https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE
+https://github.com/We5ter/Scanners-Box
+https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet
+https://github.com/smgorelik/Windows-RCE-exploits
+https://github.com/trustedsec/physical-docs
+https://github.com/matterpreter/OffensiveCSharp
+https://github.com/mgeeky/Penetration-Testing-Tools
+https://github.com/nomi-sec/PoC-in-GitHub
+https://github.com/mantvydasb/RedTeam-Tactics-and-Techniques
+https://github.com/netbiosX/清单
+https://github.com/Mr-Un1k0d3r/RedTeamCSharpScripts
+https://github.com/adon90/pentest_compilation
+https://github.com/sailay1996/awesome_windows_logical_bugs
+https://github.com/EnableSecurity/awesome-rtc-hacking
+https://github.com/d1pakda5/PowerShell-for-Pentesters
+https://github.com/Mr-Un1k0d3r/RedTeamCSharpScripts
+https://github.com/google/tsunami-security-scanner
+
