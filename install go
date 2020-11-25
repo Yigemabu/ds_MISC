@@ -1,0 +1,19 @@
+#remvoe
+  sudo apt-get remove golang-go
+  sudo apt-get remove --auto-remove golang-go
+  sudo rm -rvf /usr/local/go
+
+Step 2: Install the new Go version
+  wget https://dl.google.com/go/go1.14.linux-amd64.tar.gz
+  sudo tar -xvf go1.14.linux-amd64.tar.gz
+  sudo mv go /usr/local
+  
+Step 3: Setup Go Environment (Linux)
+  export GOROOT=/usr/local/go
+  export GOPATH=$HOME/go
+  export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+    source ~/.profile
+    
+Step 4: Verify Go Version and Environment   
+    go version
+    go env
