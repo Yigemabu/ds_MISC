@@ -1,0 +1,35 @@
+1 指纹识别
+云悉安全 https://www.yunsee.cn/
+网站基础信息获取 https://scan.top15.cn/web/
+
+2 服务器信息
+Shodan https://www.shodan.io
+
+3 子域名获取
+Crt子域名获取 https://crt.sh/
+Google透明度报告 https://transparencyreport.google.com/https/certificates?hl=zh_CN
+
+4 XSS平台
+建议自行搭建，临时需求可尝试搜索引擎注册账号
+
+5 DNSLOG
+ceye【需注册】 http://ceye.io/
+免注册 http://www.dnslog.cn/
+免注册 https://dnslog.io/
+
+6 社会工程学相关
+Reg007 https://www.reg007.com/
+
+7 在线资产测绘
+FOFA https://fofa.so/
+
+8 在线EXP
+exploit-db https://www.exploit-db.com/
+
+9 匿名邮箱
+https://temp-mail.org/zh/
+
+10 匿名短信
+https://www.becmd.com/
+
+
