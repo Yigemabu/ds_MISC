@@ -12,7 +12,8 @@ Google透明度报告 https://transparencyreport.google.com/https/certificates?h
 4 XSS平台
 建议自行搭建，临时需求可尝试搜索引擎注册账号
 
-5 DNSLOG
+5 DNSLOG   
+#https://www.secpulse.com/archives/145327.html
 ceye【需注册】 http://ceye.io/
 免注册 http://www.dnslog.cn/
 免注册 https://dnslog.io/
