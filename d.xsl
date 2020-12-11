@@ -1,1 +1,0 @@
-https://raw.githubusercontent.com/dskho/ds_MISC/main/Get%20Hostname%20from%20IP%20Address%20using%20PowerShell
