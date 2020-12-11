@@ -1,0 +1,8 @@
+Get-Content .\src.txt | ForEach-Object{
+$hostname = ([System.Net.Dns]::GetHostByAddress($_)).Hostname
+if($? -eq $True) {
+  $_ +": "+ $hostname >> ".\srcmachinenames.txt"
+}
+else {
+   $_ +": Cannot resolve hostname" >> ".\srcmachinenames.txt"
+}}
